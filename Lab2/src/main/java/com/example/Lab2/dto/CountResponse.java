@@ -13,5 +13,5 @@ public class CountResponse {
     private Long uppercaseLetters;
     private Long lowercaseLetters;
     private Long specialSigns;
-    private Long numOfAppearances;
+    private Long numOfOccurrences;
 }
