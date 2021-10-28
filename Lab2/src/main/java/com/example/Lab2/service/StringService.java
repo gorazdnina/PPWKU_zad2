@@ -15,7 +15,7 @@ public class StringService {
             else if (Character.isDigit(toCount.charAt(k))) countResponse.setDigits(countResponse.getDigits()+1);
             else if (!Character.isWhitespace(toCount.charAt(k))) countResponse.setSpecialSigns(countResponse.getSpecialSigns()+1);
         }
-        countResponse.setNumOfOccurrences((long) (toCount.split(countRequest.getExpresion(), -1).length-1));
+        countResponse.setNumOfOccurrences((long) (toCount.split(countRequest.getExpression(), -1).length-1));
         return countResponse;
     }
 }

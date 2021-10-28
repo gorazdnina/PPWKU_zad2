@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CountRequest {
     private String string;
-    private String expresion;
+    private String expression;
 }
