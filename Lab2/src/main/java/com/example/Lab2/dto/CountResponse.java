@@ -10,8 +10,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class CountResponse {
-    private Long uppercaseLetters;
-    private Long lowercaseLetters;
-    private Long specialSigns;
-    private Long numOfOccurrences;
+    private Long uppercaseLetters = 0L;
+    private Long lowercaseLetters = 0L;
+    private Long digits = 0L;
+    private Long specialSigns = 0L;
+    private Long numOfOccurrences = 0L;
 }
