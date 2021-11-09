@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class StringController {
     @Autowired
     private StringService stringService;
-    @GetMapping("/request")
+    @PostMapping("/request")
     public ResponseEntity<CountResponse> getController(@RequestBody CountRequest countRequest) {
         return ResponseEntity.ok(stringService.countString(countRequest));
     }
